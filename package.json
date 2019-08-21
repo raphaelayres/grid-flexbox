@@ -1,0 +1,14 @@
+{
+  "name": "grid-flexbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "scssmin": "node-sass -watch -include-path scss -o css --output-style compressed --source-comments false",
+    "scss": "node-sass -watch -include-path scss -o css --output-style --source-comments false"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "typeface-nunito": "^0.0.72"
+  }
+}

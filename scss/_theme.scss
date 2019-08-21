@@ -1,0 +1,35 @@
+@each $key, $value in $theme-colors {
+  .bg-#{$key} {
+    background-color: #{$value} !important;
+  }
+  .border-#{$key} {
+    border-color: #{$value} !important;
+  }
+  .text-#{$key} {
+    color: #{$value} !important;
+  }
+  .btn-#{$key} {
+    // background-color: #{$value} !important;
+    background-color: rgba($value, 0.75) !important;
+  }
+  .btn-#{$key}:hover {
+    background-color: #{$value} !important;
+    // background-color: rgba($value, 0.75) !important;
+  }
+  @if $key == "white" {
+    .btn-#{$key}:hover {
+      background-color: #eee !important;
+      color: #666 !important;
+    }
+  }
+}
+
+.btn-block {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.border {
+  border: 1px solid #ccc;
+}

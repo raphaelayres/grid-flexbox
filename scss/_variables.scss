@@ -1,0 +1,93 @@
+$columns: 14;
+$radius: 5;
+
+$theme-colors: (
+  "blue": #0071bc,
+  "grey": #e9ecef,
+  "green": #20c997,
+  "red": #c95968,
+  "yellow": #ffc43d,
+  "black": #000,
+  "white": #fff,
+  "dark": #333,
+  "silver": #999
+);
+
+$spacer: 1rem !default;
+$spacers: () !default;
+
+$spacers: map-merge(
+  (
+    0: 0,
+    1: (
+      $spacer * 0.25
+    ),
+    2: (
+      $spacer * 0.5
+    ),
+    3: $spacer,
+    4: (
+      $spacer * 1.5
+    ),
+    5: (
+      $spacer * 3
+    )
+  ),
+  $spacers
+);
+
+$horizontal-positions: (
+  0: start,
+  1: end,
+  2: center,
+  3: space-between,
+  4: space-around
+);
+
+$vertical-positions: (
+  0: start,
+  1: end,
+  2: center,
+  3: baseline,
+  4: stretch
+);
+
+$percentages: (
+  0: 5,
+  1: 10,
+  2: 15,
+  3: 20,
+  4: 25,
+  5: 30,
+  6: 35,
+  7: 40,
+  8: 45,
+  9: 50,
+  10: 55,
+  11: 60,
+  12: 65,
+  13: 70,
+  14: 75,
+  15: 80,
+  16: 85,
+  17: 90,
+  18: 95,
+  19: 100
+);
+
+$icon-sizes: (
+  1: 16,
+  2: 24,
+  3: 32,
+  4: 48,
+  5: 64,
+  6: 128
+);
+
+$font-weights: (
+  "normal": "normal",
+  "bold": "bold",
+  "light": 300,
+  "medium": 400,
+  "semibold": 500
+);

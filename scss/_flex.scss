@@ -1,0 +1,15 @@
+@each $key, $value in $horizontal-positions {
+  .justify-content-#{$value} {
+    justify-content: $value;
+  }
+}
+
+@each $key, $value in $vertical-positions {
+  .align-items-#{$value} {
+    align-items: $value;
+  }
+
+  .align-self-#{$value} {
+    align-self: $value;
+  }
+}

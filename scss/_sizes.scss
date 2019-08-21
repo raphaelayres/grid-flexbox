@@ -1,0 +1,36 @@
+@each $key, $value in $percentages {
+  .h-#{$value} {
+    height: percentage($value/100);
+  }
+  .w-#{$value} {
+    width: percentage($value/100);
+  }
+}
+
+@each $key, $value in $icon-sizes {
+  .icon-size-#{$key} {
+    font-size: #{$value}px !important;
+  }
+}
+
+@media (min-width: 983px) {
+  @each $key, $value in $percentages {
+    .h-desktop-#{$value} {
+      height: percentage($value/100);
+    }
+    .w-desktop-#{$value} {
+      width: percentage($value/100);
+    }
+  }
+}
+
+@media (max-width: 982px) {
+  @each $key, $value in $percentages {
+    .h-mobile-#{$value} {
+      height: percentage($value/100);
+    }
+    .w-mobile#{$value} {
+      width: percentage($value/100);
+    }
+  }
+}

@@ -1,0 +1,204 @@
+@each $key, $value in $spacers {
+  .m-#{$key} {
+    margin: #{$value} #{$value} #{$value} #{$value} !important;
+  }
+  .ml-#{$key} {
+    margin-left: #{$value} !important;
+  }
+  .mr-#{$key} {
+    margin-right: #{$value} !important;
+  }
+  .mb-#{$key} {
+    margin-bottom: #{$value} !important;
+  }
+  .mt-#{$key} {
+    margin-top: #{$value} !important;
+  }
+  .my-#{$key} {
+    margin-top: #{$value} !important;
+    margin-bottom: #{$value} !important;
+  }
+  .mx-#{$key} {
+    margin-left: #{$value} !important;
+    margin-right: #{$value} !important;
+  }
+  .p-#{$key} {
+    padding: #{$value} #{$value} #{$value} #{$value} !important;
+  }
+  .pl-#{$key} {
+    padding-left: #{$value} !important;
+  }
+  .pr-#{$key} {
+    padding-right: #{$value} !important;
+  }
+  .pb-#{$key} {
+    padding-bottom: #{$value} !important;
+  }
+  .pt-#{$key} {
+    padding-top: #{$value} !important;
+  }
+  .py-#{$key} {
+    padding-top: #{$value} !important;
+    padding-bottom: #{$value} !important;
+  }
+  .px-#{$key} {
+    padding-left: #{$value} !important;
+    padding-right: #{$value} !important;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+@media (min-width: 983px) {
+  @each $key, $value in $spacers {
+    .m-desktop-#{$key} {
+      margin: #{$value} #{$value} #{$value} #{$value} !important;
+    }
+    .ml-desktop-#{$key} {
+      margin-left: #{$value} !important;
+    }
+    .mr-desktop-#{$key} {
+      margin-right: #{$value} !important;
+    }
+    .mb-desktop-#{$key} {
+      margin-bottom: #{$value} !important;
+    }
+    .mt-desktop-#{$key} {
+      margin-top: #{$value} !important;
+    }
+    .my-desktop-#{$key} {
+      margin-top: #{$value} !important;
+      margin-bottom: #{$value} !important;
+    }
+    .mx-desktop-#{$key} {
+      margin-left: #{$value} !important;
+      margin-right: #{$value} !important;
+    }
+    .p-desktop-#{$key} {
+      padding: #{$value} #{$value} #{$value} #{$value} !important;
+    }
+    .pl-desktop-#{$key} {
+      padding-left: #{$value} !important;
+    }
+    .pr-desktop-#{$key} {
+      padding-right: #{$value} !important;
+    }
+    .pb-desktop-#{$key} {
+      padding-bottom: #{$value} !important;
+    }
+    .pt-desktop-#{$key} {
+      padding-top: #{$value} !important;
+    }
+    .py-desktop-#{$key} {
+      padding-top: #{$value} !important;
+      padding-bottom: #{$value} !important;
+    }
+    .px-desktop-#{$key} {
+      padding-left: #{$value} !important;
+      padding-right: #{$value} !important;
+    }
+  }
+
+  .mx-desktop-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .my-desktop-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .ml-desktop-auto {
+    margin-left: auto;
+  }
+
+  .mr-desktop-auto {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 982px) {
+  @each $key, $value in $spacers {
+    .m-mobile-#{$key} {
+      margin: #{$value} #{$value} #{$value} #{$value} !important;
+    }
+    .ml-mobile-#{$key} {
+      margin-left: #{$value} !important;
+    }
+    .mr-mobile-#{$key} {
+      margin-right: #{$value} !important;
+    }
+    .mb-mobile-#{$key} {
+      margin-bottom: #{$value} !important;
+    }
+    .mt-mobile-#{$key} {
+      margin-top: #{$value} !important;
+    }
+    .my-mobile-#{$key} {
+      margin-top: #{$value} !important;
+      margin-bottom: #{$value} !important;
+    }
+    .mx-mobile-#{$key} {
+      margin-left: #{$value} !important;
+      margin-right: #{$value} !important;
+    }
+    .p-mobile-#{$key} {
+      padding: #{$value} #{$value} #{$value} #{$value} !important;
+    }
+    .pl-mobile-#{$key} {
+      padding-left: #{$value} !important;
+    }
+    .pr-mobile-#{$key} {
+      padding-right: #{$value} !important;
+    }
+    .pb-mobile-#{$key} {
+      padding-bottom: #{$value} !important;
+    }
+    .pt-mobile-#{$key} {
+      padding-top: #{$value} !important;
+    }
+    .py-mobile-#{$key} {
+      padding-top: #{$value} !important;
+      padding-bottom: #{$value} !important;
+    }
+    .px-mobile-#{$key} {
+      padding-left: #{$value} !important;
+      padding-right: #{$value} !important;
+    }
+  }
+
+  .mx-mobile-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .my-mobile-auto {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .ml-mobile-auto {
+    margin-left: auto;
+  }
+
+  .mr-mobile-auto {
+    margin-right: auto;
+  }
+}
