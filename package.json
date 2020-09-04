@@ -8,7 +8,7 @@
     "scss": "node-sass -watch -include-path scss -o css --output-style --source-comments false"
   },
   "dependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "typeface-nunito": "^0.0.72"
   }
 }
